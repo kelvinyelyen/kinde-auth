@@ -27,14 +27,14 @@ npx create-next-app kinde-auth --example "https://github.com/kelvinyelyen/kinde-
 ### UI
 
 - [Tailwind CSS](https://tailwindcss.com/) – Utility-first CSS framework for rapid UI development
-- [shadcn/ui](https://tailwindcss.com/) – Utility-first CSS framework for rapid UI development
+- [shadcn/ui](https://ui.shadcn.com/) – Beautifully designed components that you can copy and paste into your apps
 - [Radix](https://www.radix-ui.com/) – Primitives like modal, popover, etc. to build a stellar user experience
 - [Lucide](https://lucide.dev/) – Beautifully simple, pixel-perfect icons
 
 
 ## Getting Started
 
-The Kinde SDK is designed specifically for Next.js version 13+ and utilizes Server Side Components and App Router.
+This Kinde SDK is designed specifically for Next.js version 13+ and utilizes Server Side Components and App Router.
 
 ### Prerequisites
 
