@@ -1,35 +1,59 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Kinde Authentication For Nextjs
+
+This project serves as a comprehensive template designed to facilitate the authentication process within a Next.js application using the Kinde authentication service. With this template, developers can seamlessly implement secure Login and Registration forms, all conveniently accessible and customizable through the Kinde Profile interface. Moreover, the template enables effortless expansion by enabling the addition of various authentication providers, simplifying the integration process through user-friendly instructions.
+
+## One-click Deploy
+
+You can deploy this template to Vercel with the button below:
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fkelvinyelyen%2Fkinde-auth)
+
+You can also clone & create this repo locally with the following command:
+
+```bash
+npx create-next-app precedent --example "https://github.com/steven-tey/precedent"
+```
+
+## Tech Stack
+### Frameworks
+
+- [Next.js](https://nextjs.org/) – React framework for building performant apps with the best developer experience
+
+### Platforms
+
+- [Vercel](https://vercel.com/) – Easily preview & deploy changes with git
+- [Kinde](https://kinde.com/docs/developer-tools/nextjs-sdk/) – Simple, powerful authentication
+
+### UI
+
+- [Tailwind CSS](https://tailwindcss.com/) – Utility-first CSS framework for rapid UI development
+- [shadcn/ui](https://tailwindcss.com/) – Utility-first CSS framework for rapid UI development
+- [Radix](https://www.radix-ui.com/) – Primitives like modal, popover, etc. to build a stellar user experience
+- [Lucide](https://lucide.dev/) – Beautifully simple, pixel-perfect icons
+
 
 ## Getting Started
 
-First, run the development server:
+The Kinde SDK is designed specifically for Next.js version 13+ and utilizes Server Side Components and App Router.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+### Prerequisites
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Before you begin, ensure you have the following in place:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Node.js (version 18+)
+- npm (version 9+)
+- Next.js (version 13+)
+- Kinde account (Register for free [here](https://app.kinde.com/register))
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Installation
 
-## Learn More
+1. Clone the repository: `git clone https://github.com/kelvinyelyen/kinde-auth.git`
+2. Navigate to the project directory: `cd kinde-auth`
+3. Install dependencies: `npm install`
+4. Setup environment variables: `.env.example`
+4. Start the development server: `npm run dev`
 
-To learn more about Next.js, take a look at the following resources:
+You have the flexibility to personalize and modify your Login and Registration forms etc. directly within your Kinde Profile. Additionally, expanding your options is hassle-free – you can easily integrate additional providers by following straightforward steps with just a click.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# kinde-auth
+## Author
+- Kelvin Yelyen ([@kelvinyelyen](https://twitter.com/kelvinyelyen))
