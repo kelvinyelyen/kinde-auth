@@ -1,4 +1,3 @@
-import Image from "next/image"
 import { ArrowRight } from "../node_modules/lucide-react"
 
 export default function Home() {
