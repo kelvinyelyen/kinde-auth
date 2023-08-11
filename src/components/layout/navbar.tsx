@@ -33,7 +33,7 @@ export function Navbar() {
         <>
           <Menubar className="z-10">
             <MenubarMenu>
-              <MenubarTrigger>{user.given_name}</MenubarTrigger>
+              <MenubarTrigger>You are logged in as {user.given_name}</MenubarTrigger>
               <MenubarContent>
                 <MenubarItem>{user.email}</MenubarItem>
                 <MenubarSeparator />
