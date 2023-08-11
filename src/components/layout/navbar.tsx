@@ -9,7 +9,7 @@ import {
   MenubarSeparator,
   MenubarShortcut,
   MenubarTrigger,
-} from "@/components/ui/menubar"
+} from "@/src/components/ui/menubar"
 
 import {
   RegisterLink,
@@ -23,7 +23,10 @@ export function Navbar() {
   const user = getUser()
   return (
     <div className="container z-10 mx-auto flex h-16 items-center justify-between">
-      <Link href="/" className="flex items-center font-display text-md lg:text-2xl font-semibold">
+      <Link
+        href="/"
+        className="flex items-center font-display text-md lg:text-2xl font-semibold"
+      >
         <p className="z-10 tracking-tighter font-mono">Portal</p>
       </Link>
       {isAuthenticated() ? (

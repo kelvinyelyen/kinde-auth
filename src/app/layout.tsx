@@ -1,14 +1,14 @@
-import './globals.css'
-import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
-import { Navbar } from '@/components/layout/navbar'
-import Footer from '@/components/layout/footer'
+import "./globals.css"
+import type { Metadata } from "next"
+import { Inter } from "next/font/google"
+import { Navbar } from "@/src/components/layout/navbar"
+import Footer from "@/src/components/layout/footer"
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: 'Portal',
-  description: 'Kinde Authentication Template with Nextjs',
+  title: "Portal",
+  description: "Kinde Authentication Template with Nextjs",
 }
 
 export default function RootLayout({

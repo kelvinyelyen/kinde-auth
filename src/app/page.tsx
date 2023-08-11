@@ -1,4 +1,4 @@
-import { ArrowRight } from "../node_modules/lucide-react"
+import { ArrowRight } from "../../node_modules/lucide-react"
 
 export default function Home() {
   return (
