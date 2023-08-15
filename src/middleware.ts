@@ -9,6 +9,6 @@ export function middleware(request: NextRequest) {
   const isAuthenticated = request.cookies.get("kinde_token")
 
   if (!isAuthenticated) {
-    return NextResponse.redirect(new URL("http://localhost:3000/"))
+    return NextResponse.redirect(new URL("https://kinde-auth.vercel.app/"))
   }
 }
