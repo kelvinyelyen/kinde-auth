@@ -1,6 +1,6 @@
 # Kinde Authentication For Nextjs
 
-This project serves as a comprehensive template designed to facilitate the authentication process within a Next.js application using the Kinde authentication service. With this template, developers can seamlessly implement secure Login and Registration forms, all conveniently accessible and customizable through the Kinde Profile interface. Moreover, the template enables effortless expansion by enabling the addition of various authentication providers, simplifying the integration process through user-friendly instructions.
+This project offers a comprehensive blueprint aimed at simplifying the authentication process within a Next.js application using the Kinde authentication service. By employing this template, developers can effortlessly incorporate secure Login and Registration forms, all conveniently accessible and modifiable through the Kinde Profile interface. Aditionally, the template enables easy expansion by supporting the integration of various authentication providers, streamlining the process with user-friendly instructions.
 
 ## One-click Deploy
 
