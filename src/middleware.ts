@@ -1,16 +1,14 @@
 import { authMiddleware } from "@kinde-oss/kinde-auth-nextjs/server"
+import { NextRequest, NextResponse } from "next/server"
 
 export const config = {
-  matcher: [
-    /*
-     * Match all request paths except for the ones starting with:
-     * - api (API routes)
-     * - _next/static (static files)
-     * - _next/image (image optimization files)
-     * - favicon.ico (favicon file)
-     */
-    "/((?!api|_next/static|_next/image|favicon.ico).*)",
-  ],
+  matcher: ["/dashboard"],
 }
 
-export default authMiddleware
+export function middleware(request: NextRequest) {
+  const isAuthenticated = request.cookies.get("kinde_token")
+
+  if (!isAuthenticated) {
+    return NextResponse.redirect(new URL("http://localhost:3000/"))
+  }
+}
