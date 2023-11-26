@@ -4,7 +4,8 @@ This project presents a robust blueprint focused on streamlining the authenticat
 
 ## One-click Deploy
 
-You can deploy this template to Vercel with the button below: [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fkelvinyelyen%2Fkinde-auth)
+You can deploy this template to Vercel with the button below: 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fkelvinyelyen%2Fkinde-auth)
 
 You can also clone & create this repo locally with the following command:
 
