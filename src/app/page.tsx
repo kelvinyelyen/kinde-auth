@@ -27,7 +27,7 @@ export default function Home() {
           </CardHeader>
           <CardFooter>
             <Button asChild>
-              <Link href="https://kinde.com/docs/developer-tools/nextjs-sdk/">
+              <Link href="https://kinde.com/docs/developer-tools/nextjs-sdk/" target="_blank">
                 Learn more
               </Link>
             </Button>
@@ -44,7 +44,7 @@ export default function Home() {
           </CardHeader>
           <CardFooter>
             <Button asChild>
-              <Link href="/https://ui.shadcn.com/">Learn more</Link>
+              <Link href="/https://ui.shadcn.com/ " target="_blank">Learn more</Link>
             </Button>
           </CardFooter>
         </Card>
@@ -56,7 +56,7 @@ export default function Home() {
           </CardHeader>
           <CardFooter>
             <Button asChild>
-              <Link href="https://github.com/kelvinyelyen/kinde-auth">
+              <Link href="https://github.com/kelvinyelyen/kinde-auth" target="_blank">
                 Star on GitHub
               </Link>
             </Button>
@@ -72,7 +72,7 @@ export default function Home() {
           </CardHeader>
           <CardFooter>
             <Button asChild>
-              <Link href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fkelvinyelyen%2Fkinde-auth">
+              <Link href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fkelvinyelyen%2Fkinde-auth" target="_blank">
                 Deploy to Vercel
               </Link>
             </Button>
