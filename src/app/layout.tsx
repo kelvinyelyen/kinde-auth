@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "Portal",
-  description: " Kinde Nextjs SDK integration Starter.",
+  description: " Kinde Nextjs SDK Starter.",
 }
 
 export default function RootLayout({
