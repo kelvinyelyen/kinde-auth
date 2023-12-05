@@ -7,10 +7,8 @@ import {
   MenubarItem,
   MenubarMenu,
   MenubarSeparator,
-  MenubarShortcut,
   MenubarTrigger,
 } from "@/src/components/ui/menubar"
-
 import {
   RegisterLink,
   LoginLink,
@@ -22,18 +20,19 @@ export function Navbar() {
   const { getUser, isAuthenticated } = getKindeServerSession()
   const user = getUser()
   return (
-    <div className="container z-10 mx-auto flex h-16 items-center justify-between">
-      <Link
-        href="/"
-        className="flex items-center font-display text-md lg:text-2xl font-semibold"
-      >
-        <p className="z-10 tracking-tighter font-mono">Portal</p>
+    <div className="container flex h-16 items-center justify-between">
+      <Link href="/">
+        <p className="flex items-center text-md lg:text-xl tracking-tighter">
+          portal_
+        </p>
       </Link>
       {isAuthenticated() ? (
         <>
           <Menubar className="z-10">
             <MenubarMenu>
-              <MenubarTrigger>You are logged in as {user.given_name}</MenubarTrigger>
+              <MenubarTrigger>
+                You are logged in as {user.given_name}
+              </MenubarTrigger>
               <MenubarContent>
                 <MenubarItem>{user.email}</MenubarItem>
                 <MenubarSeparator />

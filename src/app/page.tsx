@@ -1,61 +1,83 @@
-import { ArrowRight } from "../../node_modules/lucide-react"
+import Link from "next/link"
+
+import {
+  Card,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/src/components/ui/card"
+import { Button } from "@/src/components/ui/button"
 
 export default function Home() {
   return (
-    <main className="z-10 flex max-h-screen flex-col items-center justify-between p-24 lg:p-40">
-      <h2 className="z-10 text-7xl tracking-tighter mb-10">Kinde</h2>
+    <main className="container">
+      <h2 className="text-2xl tracking-tighter text-center">Kinde Auth</h2>
+      <p className="text-sm text-center p-3 text-secondary">
+        Kinde Nextjs SDK integration Starter. Building <br /> blocks for your
+        Next project
+      </p>
+      <div className="grid grid-cols-2 gap-4 p-4">
+        <Card>
+          <CardHeader>
+            <CardTitle>Kinde</CardTitle>
+            <CardDescription>
+              Learn about Kinde and the Nextjs SDK
+            </CardDescription>
+          </CardHeader>
+          <CardFooter>
+            <Button asChild>
+              <Link href="https://kinde.com/docs/developer-tools/nextjs-sdk/">
+                Learn more
+              </Link>
+            </Button>
+          </CardFooter>
+        </Card>
 
-      <div className="z-10 mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-3 lg:text-left">
-        <a
-          href="https://github.com/kelvinyelyen/kinde-auth"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            GitHub{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              <ArrowRight />
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Star this project on GitHub
-          </p>
-        </a>
+        <Card>
+          <CardHeader>
+            <CardTitle>Shadcn</CardTitle>
+            <CardDescription>
+              Beautifully designed components that you can copy and paste into
+              your apps.
+            </CardDescription>
+          </CardHeader>
+          <CardFooter>
+            <Button asChild>
+              <Link href="/https://ui.shadcn.com/">Learn more</Link>
+            </Button>
+          </CardFooter>
+        </Card>
 
-        <a
-          href="https://kinde.com/docs/developer-tools/nextjs-sdk/"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              <ArrowRight />
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Kinde and the Nextjs SDK
-          </p>
-        </a>
+        <Card>
+          <CardHeader>
+            <CardTitle>GitHub</CardTitle>
+            <CardDescription>Star this project on GitHub</CardDescription>
+          </CardHeader>
+          <CardFooter>
+            <Button asChild>
+              <Link href="https://github.com/kelvinyelyen/kinde-auth">
+                Star on GitHub
+              </Link>
+            </Button>
+          </CardFooter>
+        </Card>
 
-        <a
-          href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fkelvinyelyen%2Fkinde-auth"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              <ArrowRight />
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to Vercel.
-          </p>
-        </a>
+        <Card>
+          <CardHeader>
+            <CardTitle>One-Click Deploy</CardTitle>
+            <CardDescription>
+              Instantly deploy your Next.js site to Vercel.
+            </CardDescription>
+          </CardHeader>
+          <CardFooter>
+            <Button asChild>
+              <Link href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fkelvinyelyen%2Fkinde-auth">
+                Deploy to Vercel
+              </Link>
+            </Button>
+          </CardFooter>
+        </Card>
       </div>
     </main>
   )
