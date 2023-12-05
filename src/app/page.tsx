@@ -44,7 +44,7 @@ export default function Home() {
           </CardHeader>
           <CardFooter>
             <Button asChild>
-              <Link href="/https://ui.shadcn.com/ " target="_blank">Learn more</Link>
+              <Link href="https://ui.shadcn.com/ " target="_blank">Learn more</Link>
             </Button>
           </CardFooter>
         </Card>
