@@ -12,7 +12,7 @@ import { Button } from "@/src/components/ui/button"
 export default function Home() {
   return (
     <main className="container">
-      <h2 className="text-2xl tracking-tighter text-center">Kinde Auth</h2>
+      <h2 className="text-2xl tracking-tighter text-center lg:mt-0 mt-3">Kinde Auth</h2>
       <p className="text-sm text-center p-3 text-secondary">
         Kinde Nextjs SDK Starter. Building <br /> blocks for your
         Next project
